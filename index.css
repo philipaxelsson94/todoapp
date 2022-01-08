@@ -1,0 +1,35 @@
+body {
+    height: 100vh;
+    align-items: center;
+    background: rgb(15,32,39);
+    background: linear-gradient(0deg, rgba(15,32,39,1) 0%, rgba(32,58,67,1) 35%, rgba(44,83,100,1) 100%);
+  }
+  h1 {
+    font-family: sans-serif;
+    font-size: 50px;
+    line-height: 1.3;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    color: white;
+  }
+
+.row {
+      justify-content:space-between;
+      display:flex;
+  }
+
+.formContainer{
+    margin:20px;
+    padding:15px;
+    border-radius:10px;
+    background: rgb(105,155,177);
+    background: linear-gradient(0deg, rgba(105,155,177,0,3) 0%, rgba(62,115,138,0,3) 35%, rgba(32,58,67,0,3) 100%);
+}
+.toDoContainer{
+    margin:20px;
+    padding:15px;
+    border-radius:10px;
+    background: rgb(105,155,177);
+    background: linear-gradient(0deg, rgba(105,155,177,0,3) 0%, rgba(62,115,138,0,3) 35%, rgba(32,58,67,0,3) 100%);
+}
